@@ -1,0 +1,38 @@
+@media (min-width: 768px) and (max-width: 991px) {
+   .header{
+
+      &__nav-office{
+         display: none;
+      }
+      &__menu-list{
+         font-size: 18px;
+      }
+   }
+   .top{
+      &__descr-title{
+         font-size: 50px;
+      }
+      &__descr-text{
+         font-size: 24px;
+      }
+   }
+
+   .slider{
+      &__img{
+         width: 400px;
+         height: 240px;
+         margin-top: 50px;
+      }
+   }
+
+   .about{
+      &__card-group{
+         align-items: center;
+      }
+      &__card-item{
+         width: 194px;
+         height: 155px;
+      }
+   }
+}
+

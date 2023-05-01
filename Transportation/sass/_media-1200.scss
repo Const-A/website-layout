@@ -1,0 +1,26 @@
+@media (min-width: 1200px) {
+   .phone{
+      font-size: 15px;
+   }
+
+   .mail{
+      font-size: 15px;
+   }
+   .header{
+      &__lang-list{
+         font-size: 15px;
+      }
+      &__menu-list{
+         font-size: 18px;
+      }
+   }
+
+   .top{
+      &__descr-title{
+         font-size: 75px;
+      }
+      &__descr-text{
+         font-size: 25px;
+      }
+   }
+}

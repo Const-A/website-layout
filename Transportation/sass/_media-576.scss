@@ -1,0 +1,72 @@
+@media (min-width: 576px) and (max-width: 767px) {
+ 
+
+   .phone{
+      display: none;
+      &__list{
+         display: flex;
+         justify-content: space-between;
+      }
+   }
+
+   .mail{
+      display: none;
+      &__link{
+         display: none;
+      }
+   }
+   .header{
+      &__nav-office{
+         display: none;
+      }
+   }
+
+   .slider{
+      &__inner{
+         padding-top: 100px;
+         padding-bottom: 100px;
+      }
+      &__arrows-text{
+         display: none;
+      }
+   }
+
+   .services{
+      &__inner{
+         padding-top: 100px;
+      }
+   }
+   
+   .arrow-left{
+      margin-right: 0;
+   }
+
+   .about{
+      &__card-item{
+         width: 220px;
+         height: 170px;
+      }
+      &__card-title{
+         font-size: 55px;
+      }
+      &__card-text{
+         font-size: 14px;
+      }
+   }
+
+   .footer{
+      &__inner{
+         height: 110px;
+      }
+      &__adress-street{
+         margin-top: 13px;
+      }
+      &__logo-img{
+         width: 110px;
+         height: 50px;
+      }
+      &__phone{
+         margin-top: 11px;
+      }
+   }
+}

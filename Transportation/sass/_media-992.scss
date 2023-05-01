@@ -1,0 +1,23 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+
+   .header{
+      &__nav-office{
+         border-left: 0;
+         padding-left: 30px;
+      }
+      &__office-text{
+         margin-left: 5px;
+      }
+      &__menu-item{
+         margin-left: 24px;
+      }
+      &__menu-link{
+         padding-right: 0;
+         padding-left: 0;
+      }
+   }
+   .navbar-expand-lg{
+      padding-right: 0;
+      padding-left: 0;
+   }
+}

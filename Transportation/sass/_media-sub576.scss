@@ -1,0 +1,96 @@
+@media (max-width: 576px){
+   .logo{
+      &__img{
+         width: 140px;
+         height: 45px;
+      }
+   }
+
+   .phone{
+      display: none;
+   }
+
+   .mail{
+      display: none;
+      &__link{
+         display: none;
+      }
+   }
+
+   .header{
+      &__info{
+         padding-top: 8px;
+      }
+      &__lang-list{
+         margin-bottom: 0;
+      }
+      &__nav{
+         margin-top: 0;
+         margin-bottom: 0;
+      }
+      &__nav-office{
+         display: none;
+      }
+   }
+
+   .slider{
+      &__inner{
+         padding-top: 100px;
+         padding-bottom: 100px;
+      }
+      &__data-descr::before{
+         height: 0;
+      }
+      &__data-title{
+         font-size: 30px;
+      }
+      &__img{
+         width: 360px;
+         height: 240px;
+         margin-top: 30px;
+      }
+      &__arrows-text{
+         display: none;
+      }
+   }
+   .arrow-left{
+      margin-right: 0;
+   }
+
+   .top{
+      &__inner{
+         height: 580px;
+      }
+      &__descr-title{
+         font-size: 50px;
+      }
+   }
+
+   .services{
+      &__inner{
+         padding-top: 90px;
+         padding-bottom: 90px
+      }
+   }
+
+   .about{
+      &__inner{
+         height: 100%;
+      }
+      &__card-group{
+         justify-content: center;
+      }
+   }
+
+   .footer{
+      &__inner{
+         height: 100%;
+      }
+      &__adress-street{
+         margin-top: 10px;
+      }
+      &__logo-img{
+         display: none;
+      }
+   }
+}
